@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
 class Stelle:
-  def __init__(self, Nemo_6670.dat):
-   self.data = pd.read_csv(Nemo_6670.dat)
+  def __init__(self,\Users\Sara\Desktop\pandas\Nemo_6670.dat):
+   self.data = pd.read_csv(\Users\Sara\Desktop\pandas\Nemo_6670.dat)
    self.age_bins = [(0, 1), (1, 5), (5, np.inf)]  # Definire i range per i sottogruppi di età
    self.age_labels = ["< 1 Gyr", "1 - 5 Gyr", "> 5 Gyr"]
     
