@@ -30,4 +30,4 @@ class Stelle:
 file_path = r"/mnt/c/Users/Sara/Desktop/pandas/Nemo_6670.dat"  # Usa il percorso corretto con stringa raw
 stelle = Stelle(file_path)
 stelle.plot_color_magnitude()
-                               
+#ciaooooooo                               
